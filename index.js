@@ -8,7 +8,7 @@ const path = require('path');
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
 // Routing untuk halaman utama (localhost:3000 atau '/')
 app.get('/', (req, res) => {
