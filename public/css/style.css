@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+h5{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding-top: 20px;
+}
+p{
+    color:black;
+    font-family: 'Times New Roman';
+}
+img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+th{
+    padding: 0px 0px 50px 0px;
+}
+td{
+    padding: 0px 0px 0px 150px;
+}
+.table-borderless{
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+}
+.table-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.table-fade-in.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
