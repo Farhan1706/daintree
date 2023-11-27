@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Fungsi untuk mengambil data dari API
     function fetchData() {
-        fetch('http://127.0.0.1:3000/api') // Ganti URL sesuai dengan URL API yang sesuai
+        fetch('http://localhost:3000/api') // Ganti URL sesuai dengan URL API yang sesuai
             .then(response => response.json())
             .then(data => {
                 // Memanggil fungsi untuk menambahkan data ke tabel
