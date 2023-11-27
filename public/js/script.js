@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Fungsi untuk mengambil data dari API
     function fetchData() {
-        const apiUrl = 'https://daintree-sable.vercel.app/api';
+        const apiUrl = 'https://daintree-jq9n4n33e-farhans-projects-0b3b87fc.vercel.app/api';
         fetch(apiUrl) 
             .then(response => response.json())
             .then(data => {
