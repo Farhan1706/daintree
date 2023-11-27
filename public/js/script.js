@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Fungsi untuk mengambil data dari API
     function fetchData() {
-        fetch('http://localhost/api') // Ganti URL sesuai dengan URL API yang sesuai
+        fetch('https://daintree-eight.vercel.app/api') // Ganti URL sesuai dengan URL API yang sesuai
             .then(response => response.json())
             .then(data => {
                 // Memanggil fungsi untuk menambahkan data ke tabel
