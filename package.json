@@ -2,12 +2,12 @@
   "name": "alamat-mod3CA",
   "version": "1.0.0",
   "description": "Membuat WEB",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": ">=18.x"
   },
   "scripts": {
-    "start": "npm install && node server.js"
+    "start": "npm install && node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

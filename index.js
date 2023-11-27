@@ -12,7 +12,7 @@ app.use(express.static('public'));
 
 // Routing untuk halaman utama (localhost:3000 atau '/')
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, './index.html'));
+  res.sendFile(path.join(__dirname, './landingpage.html'));
 });
 
 // Routing untuk API (localhost:3000/api atau '/api')
